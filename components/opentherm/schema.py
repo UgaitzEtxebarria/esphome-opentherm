@@ -219,7 +219,7 @@ SENSORS: Schema[SensorSchema] = Schema(
         "flame_current": SensorSchema(
             {
                 "description": "Boiler flame current",
-                "unit_of_measurement": UNIT_MICROAMP
+                "unit_of_measurement": UNIT_MICROAMP,
                 "accuracy_decimals": 0,
                 "device_class": DEVICE_CLASS_CURRENT,
                 "state_class": STATE_CLASS_MEASUREMENT,
